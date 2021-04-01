@@ -13,4 +13,5 @@ before_install:
 install:
   - npm install
 script:
+  - echo "Running tests against $(node -v)..."
   - npm run coveralls
